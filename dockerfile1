@@ -1,0 +1,7 @@
+FROM ubuntu
+VOLUME ["/myvolume"]
+WORKDIR /tmp
+RUN echo "This is sample for creating volume" > /tmp/newfile
+ENV myname Kandevinod
+MAINTAINER This file is written by vinod
+
